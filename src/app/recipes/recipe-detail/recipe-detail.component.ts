@@ -4,7 +4,7 @@ import { Store } from '@ngrx/store';
 
 import { Recipe } from '../recipe.model';
 import { RecipeService } from '../recipe.service';
-import * as ShoppingListActions from "../../shopping-list/store/shopping-list.actions";
+import * as ShoppingListActions from '../../shopping-list/store/shopping-list.actions';
 import * as fromApp from '../../store/app.reducers';
 
 @Component({
